@@ -1,0 +1,18 @@
+.mt-10 {
+    margin-top: '10px';
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
