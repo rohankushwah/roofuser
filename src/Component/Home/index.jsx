@@ -9,7 +9,8 @@ import { Banner } from '../banner/index';
 import LeftSideBar from '../LeftSideBar/LeftSideBar';
 // import Header from '../../containers/header';
 import useStyles from './Home.styles';
-import './style.css'
+import './style.css';
+import '../../style.css'
 
 const Home =()=> {
   
@@ -27,7 +28,7 @@ const Home =()=> {
             {/* <Grid className={classes.mobViewPage}>
               <ResponsiveSidebar />
             </Grid> */}
-            <div >
+            <div className='headingCard centerText'>
             <h1>We Are My Roofing</h1>
             <h2>Leading Roof Construction Companies...  </h2>
             </div> 
@@ -38,7 +39,7 @@ const Home =()=> {
           </Grid>
           <Grid item xs={12} md={3} lg={2} className={classes.betslipContainer}>
             {/* {!showSlipBtn && <Betslip />} */}
-            <div className="headingCard centerText ml-10">
+            <div className="headingCard centerText ml-10 mt-30">
             <h2>Why we are expert</h2>
             <p>We have a extraordinary team that understand client requirement, We have excelant skillful person, Our goal is to serve good service. </p>
             </div>
