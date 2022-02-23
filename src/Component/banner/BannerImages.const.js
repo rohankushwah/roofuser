@@ -1,15 +1,16 @@
 const sport = [
   {
     id: '1',
-    imgPath: `http://localhost:3000/images/img4.jpg`
+    imgPath: '/images/img4.jpg'
+    // `http://localhost:3000/images/img4.jpg`
   },
   {
     id: '2',
-    imgPath: `http://localhost:3000/images/img2.jpg`
+    imgPath: `/images/img2.jpg`
   },
   {
     id: '3',
-    imgPath: `http://localhost:3000/images/img3.jpg`
+    imgPath: `/images/img3.jpg`
   }
 ];
 
