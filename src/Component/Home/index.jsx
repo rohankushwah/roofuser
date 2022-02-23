@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
-// import find from 'lodash.find';
+import React from 'react';
 import { slice } from 'lodash';
 import { withStyles } from '@material-ui/styles';
 import { Grid } from '@material-ui/core';
@@ -11,20 +9,6 @@ import { Banner } from '../banner/index';
 import LeftSideBar from '../LeftSideBar/LeftSideBar';
 // import Header from '../../containers/header';
 import useStyles from './Home.styles';
-// import Advertisements from '../../components/Advertisements';
-// import MobBetSlip from '../MobBetSlip';
-// import ResponsiveSidebar from '../../components/ResponsiveSidebar';
-// import Footer from '../../components/footer';
-
-
-// let sportEventInterval;
-
-// const a11yProps = (index) => {
-//   return {
-//     id: `simple-tab-${index}`,
-//     'aria-controls': `simple-tabpanel-${index}`
-//   };
-// };
 
 const Home =()=> {
   
@@ -42,6 +26,8 @@ const Home =()=> {
             {/* <Grid className={classes.mobViewPage}>
               <ResponsiveSidebar />
             </Grid> */}
+            <h1>We Are My Roofing</h1>
+            <h2>Leading Roof Construction Companies...  </h2>
               <>
                 <Banner />
                
@@ -49,6 +35,8 @@ const Home =()=> {
           </Grid>
           <Grid item xs={12} md={3} lg={2} className={classes.betslipContainer}>
             {/* {!showSlipBtn && <Betslip />} */}
+            <h2>Why we are expert</h2>
+            <p>We have a extraordinary team that understand client requirement, We have excelant skillful person, Our goal is to serve good service. </p>
             {/* <Grid style={{ marginTop: '60px' }}>
               <Advertisements pageName='home' />
             </Grid> */}
