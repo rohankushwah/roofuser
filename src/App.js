@@ -8,8 +8,8 @@ console.log('code is here ')
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <Home/> */}
+       <Header /> 
+       <Home/> 
       <Enquiry />
       <BrowserRouter>
         <Routes>
