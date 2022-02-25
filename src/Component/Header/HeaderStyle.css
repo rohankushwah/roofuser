@@ -14,3 +14,11 @@
 .dropDownItemWidth {
     width: 30%;
 }
+
+.linkPadding {
+    padding: 12px 10px;
+}
+
+.headerPadding {
+    padding: 10px 0px 0px 0px;
+}

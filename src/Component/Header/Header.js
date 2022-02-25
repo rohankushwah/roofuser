@@ -45,11 +45,18 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <AppBar position="sticky" color="default">
-      <Container maxWidth="md">
+      <Container maxWidth="md" className="headerPadding">
         <Toolbar disableGutters>
           <div className="flex-between headerContainer">
             <div className="logoContainer">
+            <Link
+                className={styles.link}
+                color="textPrimary"
+                underline="none"
+                href='/'
+              >
               <Avatar className={styles.avatar}>Logo</Avatar>
+              </Link>
             </div>
             <Hidden xsDown>
               <div className="dropDownContainer flex-between">
@@ -73,15 +80,17 @@ export default function Header() {
                     ]}
                   />
                 </div>
-                <div className="dropDownItemWidth">
-                  <DropDown
-                    name="Branch"
-                    option={[
-                      { option1: "option1" },
-                      { option1: "option2" },
-                      { option1: "option3" },
-                    ]}
-                  />
+                <div className="dropDownItemWidth linkPadding">
+                <Link
+                className={styles.link}
+                color="textPrimary"
+                variant="button"
+                underline="none"
+                href='/contact'
+               >
+                 Contact Us
+              </Link>
+                 
                 </div>
               </div>
             </Hidden>
