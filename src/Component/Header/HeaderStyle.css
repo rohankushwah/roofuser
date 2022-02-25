@@ -15,12 +15,10 @@
     width: 30%;
 }
 
-.dropbtn {
+.linkPadding {
     padding: 12px 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    font-weight: 500;
-  }
-  
+}
+
+.headerPadding {
+    padding: 10px 0px 0px 0px;
+}

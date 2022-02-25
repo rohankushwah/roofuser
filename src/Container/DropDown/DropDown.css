@@ -1,10 +1,10 @@
   .dropbtn {
     padding: 12px 10px;
-    font-size: 16px;
+    /* font-size: 16px; */
     border: none;
     cursor: pointer;
     display: flex;
-    font-weight: 500;
+    /* font-weight: 500; */
   }
   
   .dropdown {
