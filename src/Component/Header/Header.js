@@ -73,15 +73,17 @@ export default function Header() {
                     ]}
                   />
                 </div>
-                <div className="dropDownItemWidth">
-                  <DropDown
-                    name="Branch"
-                    option={[
-                      { option1: "option1" },
-                      { option1: "option2" },
-                      { option1: "option3" },
-                    ]}
-                  />
+                <div className="dropDownItemWidth dropbtn">
+                {/* <Link
+                className={styles.link}
+                color="textPrimary"
+                variant="button"
+                underline="none"
+                href='/contact'
+              >
+                 Contact Us
+              </Link>
+                  */}
                 </div>
               </div>
             </Hidden>
