@@ -18,8 +18,7 @@ const Home =()=> {
   
     return (
       // <React.Fragment>
-     <div style={{marginTop : '20px'}}>
-      {/* <Header /> */}
+     <div  className="mt-20 pd-15">
         <Grid container classsName={classes.root}>
           <Grid item xs={12} md={3} lg={2} className={classes.webViewPage}>
             <LeftSideBar />
@@ -31,15 +30,16 @@ const Home =()=> {
             <div className='headingCard centerText'>
             <h1>We Are My Roofing</h1>
             <h2>Leading Roof Construction Companies...  </h2>
-            </div> 
+             
               <>
                 <Banner />
                
               </>
+              </div>
           </Grid>
           <Grid item xs={12} md={3} lg={2} className={classes.betslipContainer}>
             {/* {!showSlipBtn && <Betslip />} */}
-            <div className="headingCard centerText ml-10 mt-30">
+            <div className="headingCard centerText mt-30">
             <h2>Why we are expert</h2>
             <p>We have a extraordinary team that understand client requirement, We have excelant skillful person, Our goal is to serve good service. </p>
             </div>

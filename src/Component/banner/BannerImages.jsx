@@ -33,12 +33,4 @@ function BannerImages(props) {
   );
 }
 
-BannerImages.defaultProps = {
-  isCasinoPage: false
-};
-
-// BannerImages.propTypes = {
-//   isCasinoPage: PropTypes.bool
-// };
-
 export default BannerImages;
