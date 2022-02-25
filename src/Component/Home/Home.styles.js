@@ -71,6 +71,12 @@ export default (theme) => ({
       backgroundColor: 'inherit'
     }
   },
+  headingCard: {
+    width : 'auto',
+    height : 'auto',
+    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+    transition: '0.3s',
+  },
   tabsDetails: {
     '& .MuiTabs-flexContainer': {
       padding: '10px 0px',
