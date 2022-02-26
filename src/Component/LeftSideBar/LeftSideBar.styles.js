@@ -41,5 +41,10 @@ export default makeStyles((theme) => ({
   searchForm: {
     display: 'flex',
     justifyContent: 'center'
+  },
+ enquiry : {
+    color : 'black',
+    background : 'red',
+
   }
 }));

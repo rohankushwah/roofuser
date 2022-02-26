@@ -14,8 +14,7 @@ const Lists = (option) => {
       ))}
     </List>
   );
-  console.log("list is", options);
-
+  
   return options;
 };
 
