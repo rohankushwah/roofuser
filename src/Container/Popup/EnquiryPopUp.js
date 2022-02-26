@@ -18,7 +18,7 @@ import EmailEnquiry from "../../Component/Enquiry/index";
 export default function MaxWidthDialog() {
   const [open, setOpen] = React.useState(false);
   const [fullWidth, setFullWidth] = React.useState(true);
-  const [maxWidth, setMaxWidth] = React.useState("md");
+  const [maxWidth, setMaxWidth] = React.useState("sm");
 
   const handleClickOpen = () => {
     setOpen(true);
