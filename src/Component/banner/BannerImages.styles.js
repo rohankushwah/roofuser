@@ -6,14 +6,14 @@ export default makeStyles((theme) => ({
     padding: '0 5px'
   },
   img: {
-    height: 255,
+    height: 350,
     display: 'block',
     overflow: 'hidden',
     width: '100%',
     objectFit: 'cover',
     borderRadius: 10,
     [theme.breakpoints.down('sm')]: {
-      height: '150px'
+      height: '200px'
     }
   }
 }));

@@ -3,7 +3,8 @@ import Home from "../Home/index"
 const SlideShow = () => {
   return (
     <div>
-        <Home/>
+        {/* <Home/> */}
+        Sider
     </div>
   )
 }
